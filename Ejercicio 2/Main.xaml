@@ -1,0 +1,211 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:Annotation.AnnotationText="UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9" sap:VirtualizedContainerService.HintSize="1524,2746" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="608,2681" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: DEMOQA" sap:VirtualizedContainerService.HintSize="546,2593" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="d4c62492-503f-41b1-91fb-68feae5e3efe" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence sap:VirtualizedContainerService.HintSize="512,2353" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="450,130" sap2010:WorkflowViewState.IdRef="Delay_1" />
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,2138" sap2010:WorkflowViewState.IdRef="Sequence_4">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="x:String" Default="Black" Name="Str1" />
+                <Variable x:TypeArguments="x:String" Default="White" Name="Str2" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <Delay Duration="00:00:00" sap:VirtualizedContainerService.HintSize="388,130" sap2010:WorkflowViewState.IdRef="Delay_9" />
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Widgets'" sap:VirtualizedContainerService.HintSize="388,197" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d4c62492-503f-41b1-91fb-68feae5e3efe" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://demoqa.com/" CvTextArea="1253, 815, 78, 23" CvTextArgument="Widgets" CvType="Text" DesignTimeRectangle="1119, 592, 347, 272" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='4' parentid='app' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='' parentid='app' tag='DIV' aaname='' check:innerText='Widgets' /&gt;" Guid="4437351d-3c10-431a-89cb-bb28acc179da" InformativeScreenshot="a455b4e7882bc864e70850dba21c8a50.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='DEMOQA' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CvElementArea="1239, 689, 107, 106" CvType="Icon" DesignTimeRectangle="1249, 698, 88, 88" ElementType="Icon" FullSelectorArgument="&lt;webctrl idx='4' tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='svg' class='' aaname='' /&gt;" ImageBase64="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" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+              </uix:NClick>
+              <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="388,130" sap2010:WorkflowViewState.IdRef="Delay_8" />
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Auto Complete'" sap:VirtualizedContainerService.HintSize="388,197" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d4c62492-503f-41b1-91fb-68feae5e3efe" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://demoqa.com/widgets" CvElementArea="64, 651, 392, 64" CvTextArea="96, 676, 116, 19" CvTextArgument="Auto Complete" CvType="Button" DesignTimeRectangle="93, 672, 118, 24" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Auto Complete' parentid='item-1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Auto Complete' parentid='item-1' tag='SPAN' type='' class='text' check:innerText='Auto Complete' /&gt;" Guid="d18ef975-2bb5-43dc-9cd4-3c511f37a758" InformativeScreenshot="91258665c13c154faa28edaad486187e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='DEMOQA' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CvElementArea="64, 651, 392, 64" CvType="Button" DesignTimeRectangle="79, 678, 12, 13" ElementType="Icon" FullSelectorArgument="&lt;webctrl idx='3' parentid='item-1' tag='path' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='item-1' tag='path' class='' aaname='' /&gt;" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+              </uix:NClick>
+              <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="388,130" sap2010:WorkflowViewState.IdRef="Delay_10" />
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Type multiple'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,258" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="d4c62492-503f-41b1-91fb-68feae5e3efe" Text="[Str1]" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://demoqa.com/auto-complete" CvElementArea="506, 390, 440, 41" CvType="InputBox" DesignTimeRectangle="509, 445, 435, 36" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='autoCompleteMultipleContainer' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='autoCompleteMultipleContainer' tag='DIV' class='auto-complete__value-container auto-complete__value-container--is-multi css-1hwfws3' aaname='' /&gt;" Guid="857e9b1d-df7e-4d72-be52-0daee58b1e43" InformativeScreenshot="f47c3fb60a93b8488b5b293da0e23924.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='DEMOQA' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target DesignTimeRectangle="508, 421, 186, 21" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='autoCompleteMultiple' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='autoCompleteMultiple' tag='SPAN' type='' class='' aaname='Type multiple color names' check:innerText='Type multiple color names' /&gt;" SearchSteps="FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts 'Type multiple'" sap:VirtualizedContainerService.HintSize="388,239" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" ScopeIdentifier="d4c62492-503f-41b1-91fb-68feae5e3efe" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V3">
+                <uix:NKeyboardShortcuts.Target>
+                  <uix:TargetAnchorable BrowserURL="https://demoqa.com/auto-complete" DesignTimeRectangle="509, 445, 399, 36" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='autoCompleteMultipleContainer' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='autoCompleteMultipleContainer' tag='DIV' class='auto-complete__value-container auto-complete__value-container--is-multi auto-complete__value-container--has-value css-1hwfws3' aaname='' /&gt;" Guid="0c36639b-61eb-4898-addb-5e61494b1448" InformativeScreenshot="0b640735dc4b4abebadeb419914c8349.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='DEMOQA' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <uix:Target CvTextArea="507, 425, 187, 18" CvTextArgument="Type multiple color names" CvType="Text" DesignTimeRectangle="508, 421, 186, 21" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='autoCompleteMultiple' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='autoCompleteMultiple' tag='SPAN' type='' class='' aaname='Type multiple color names' check:innerText='Type multiple color names' /&gt;" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NKeyboardShortcuts.Target>
+              </uix:NKeyboardShortcuts>
+              <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="388,130" sap2010:WorkflowViewState.IdRef="Delay_11" />
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Type single color name'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,258" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="d4c62492-503f-41b1-91fb-68feae5e3efe" Text="[Str2]" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://demoqa.com/auto-complete" CvElementArea="505, 528, 441, 41" CvType="InputBox" DesignTimeRectangle="509, 531, 435, 36" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='autoCompleteSingleContainer' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='autoCompleteSingleContainer' tag='DIV' class='auto-complete__value-container css-1hwfws3' aaname='' /&gt;" Guid="c756f3db-536b-4f45-b5b9-86ec87bc7cdf" InformativeScreenshot="8ab35d5d3be96d7dce408a8116a7770f.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='DEMOQA' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CvTextArea="506, 511, 165, 18" CvTextArgument="Type single color name" CvType="Text" DesignTimeRectangle="508, 507, 163, 21" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='autoCompleteSingle' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='autoCompleteSingle' tag='SPAN' type='' class='' aaname='Type single color name' check:innerText='Type single color name' /&gt;" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts 'Type single color name'" sap:VirtualizedContainerService.HintSize="388,239" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" ScopeIdentifier="d4c62492-503f-41b1-91fb-68feae5e3efe" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V3">
+                <uix:NKeyboardShortcuts.Target>
+                  <uix:TargetAnchorable BrowserURL="https://demoqa.com/auto-complete" CvElementArea="505, 528, 442, 42" CvType="InputBox" DesignTimeRectangle="509, 531, 435, 36" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='autoCompleteSingleContainer' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='autoCompleteSingleContainer' tag='DIV' class='auto-complete__value-container auto-complete__value-container--has-value css-1hwfws3' aaname='' /&gt;" Guid="875e58a0-3fcf-47de-9104-388c722f4a4d" InformativeScreenshot="b3c30febdae34f5fa7fb9e13ba149c8a.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='DEMOQA' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <uix:Target CvTextArea="506, 511, 165, 18" CvTextArgument="Type single color name" CvType="Text" DesignTimeRectangle="508, 507, 163, 21" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='autoCompleteSingle' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='autoCompleteSingle' tag='SPAN' type='' class='' aaname='Type single color name' check:innerText='Type single color name' /&gt;" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NKeyboardShortcuts.Target>
+              </uix:NKeyboardShortcuts>
+              <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="388,115" sap2010:WorkflowViewState.IdRef="Delay_12" />
+            </Sequence>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="b95d0152e3bc04e4628dabc15e0efc71.jpg" Selector="&lt;html app='chrome.exe' title='DEMOQA' /&gt;" Title="DEMOQA" Url="https://demoqa.com/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
